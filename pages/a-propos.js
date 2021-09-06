@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 export default function About() {
   return (
     <div className="">
-      <Layout className="landingOther" page="Be Formation - Accueil">
+      <Layout className="landingOther" page="Be Formation - A propos">
         <div className="pt-20">
           <div className="w-full bg-center bg-cover lg:h-96 h-64 image">
             <div className="flex items-center justify-center w-full lg:h-96 h-64 bg-gray-900 bg-opacity-50">

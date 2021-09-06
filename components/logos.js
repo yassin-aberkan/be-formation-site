@@ -24,14 +24,16 @@ const images = [
 
 export default function Logos({ }) {
     return (
-      <div className="bg-gradient-to-t from-gray-800 w-full h-28 inline-flex items-center justify-center space-x-5 px-4" flex>
+      <div className="bg-gradient-to-t from-gray-800 w-full h-28 sm:inline-flex items-center justify-center space-x-5 px-4" flex>
       <span className="text-base sm:text-lg font-medium text-white min-w-48">Formez vous avec les logiciels les plus populaires !</span>
 
+        <div className="mt-4 sm:mt-0 inline-flex space-x-5">
       {images.map((image) => (
             <div key={image.name} className=" min-w-64">
-                <Image src={image.path} width={50} height={50} quality={10}></Image>
+                <Image src={image.path} width={50} height={50} quality={100}></Image>
             </div>
       ))}
+      </div>
 
       <style jsx>{`
         .vertical { 

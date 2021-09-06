@@ -12,7 +12,7 @@ export default function Contact() {
     <div className="">
       <Layout
         className="landingOther"
-        page="Be Formation - Accueil"
+        page="Be Formation - Contacte"
       >
         <div className=" bg-Image">
         <div className="pt-28 mb-10  text-4xl md:text-6xl tracking-wide font-bold ">

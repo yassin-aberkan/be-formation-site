@@ -2,7 +2,7 @@ import Layout from "../../components/layout";
 export default function FactureNumerique() {
   return (
     <div className="">
-      <Layout className="landingOther" page="Be Formation - Accueil">
+      <Layout className="landingOther" page="Be Formation - numerique">
         <div className="pt-20">
           <div className="w-full bg-center bg-cover lg:h-96 h-screen image">
             <div className="flex items-center justify-center w-full lg:h-96 h-full bg-gray-900 bg-opacity-50">

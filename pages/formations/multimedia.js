@@ -5,7 +5,7 @@ import "../../styles/home.module.css";
 export default function Multimedia() {
   return (
     <div className="">
-      <Layout className="landingOther" page="Be Formation - Accueil">
+      <Layout className="landingOther" page="Be Formation - multimedia">
         <div className="pt-20">
           <div
             className="w-full bg-center bg-cover lg:h-96 h-screen image"

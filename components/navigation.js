@@ -12,7 +12,7 @@ import {
   FaUserTie,
   FaFacebookSquare,
   FaInstagram,
-  FaYoutube,
+  FaEnvelope,
 } from "react-icons/fa";
 import Image from "next/image";
 
@@ -153,8 +153,9 @@ export default function Navigation() {
           </Popover.Group>
           <div className="hidden md:flex items-center space-x-5 justify-end md:flex-1 lg:w-0">
             <a
-              href="#"
+              href="https://www.facebook.com/Be-Formation-105938411811763"
               className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+              target="_blank" rel="noopener noreferrer"
             >
               <FaFacebookSquare
                 className="flex-shrink-0 h-7 w-7 text-gray-500 hover:text-blue-600"
@@ -162,8 +163,9 @@ export default function Navigation() {
               ></FaFacebookSquare>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/beformation/"
               className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+              target="_blank" rel="noopener noreferrer"
             >
               <FaInstagram
                 className="flex-shrink-0 h-7 w-7 text-gray-500 hover:text-purple-600"
@@ -171,13 +173,13 @@ export default function Navigation() {
               ></FaInstagram>
             </a>
             <a
-              href="#"
+              href="mailto:asblbeformation@gmail.com"
               className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
             >
-              <FaYoutube
-                className="flex-shrink-0 h-7 w-7 text-gray-500 hover:text-red-600"
+              <FaEnvelope
+                className="flex-shrink-0 h-6 w-7 text-gray-500 hover:text-blue-400"
                 aria-hidden="true"
-              ></FaYoutube>
+              ></FaEnvelope>
             </a>
           </div>
         </div>
