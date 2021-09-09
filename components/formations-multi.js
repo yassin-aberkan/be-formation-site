@@ -145,7 +145,7 @@ function FormationsMulti() {
   return (
     <>
     <Tabs defaultActiveKey="1" onChange={callback} className="ml-5">
-    <TabPane tab="" key="0">
+    <TabPane tab="" key="7">
     </TabPane>
     <TabPane tab="Vidéo" key="1">
     {formations.map((formation) => (
@@ -181,6 +181,8 @@ function FormationsMulti() {
         {formation.type == 5 ? <FormationCard formation = {formation}></FormationCard> : ''}
          </div>
       ))}
+    </TabPane>
+    <TabPane tab="" key="8">
     </TabPane>
     </Tabs>
       <style jsx>{`

@@ -6,14 +6,14 @@ import {
   Marker
 } from "react-google-maps";
 
-const defaultCenter = { lat: 50.867416, lng: 4.377298 };
+const defaultCenter = { lat: 50.858680, lng: 4.374210 };
 
 const defaultOptions = { scrollwheel: false };
 
 const RegularMap = withScriptjs(
   withGoogleMap(props => (
     <GoogleMap
-      defaultZoom={14}
+      defaultZoom={15}
       defaultCenter={ defaultCenter }
       defaultOptions={ defaultOptions }
     >

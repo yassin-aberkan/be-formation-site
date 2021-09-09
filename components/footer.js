@@ -1,6 +1,6 @@
 export default function footer({}) {
   return (
-    <div className="text-center">
+    <div className="text-center z-50">
       <div className=" footer-height flex justify-center px-4 text-gray-100 bg-gray-800">
         <div className="container py-6">
 

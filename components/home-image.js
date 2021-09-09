@@ -16,8 +16,7 @@ export default function HomeImage({}) {
                 Formation
               </span>
               <p className="mt-4  text-xl text-gray-100 lg:mx-auto text-shadow">
-                Se former aus outils Infographique, informatique et Webdesign et
-                bien plus !
+              Se former aux outils Infographique, informatique, Webdesign et bien plus !
               </p>
             </div>
 
@@ -29,7 +28,7 @@ export default function HomeImage({}) {
             initial={{opacity:0}}
             className="w-full"
             animate={{opacity:1}}
-            transition={{ delay: 1.5, duration: 1 }}
+            transition={{ delay: 1, duration: 1 }}
           >
             <Logos></Logos>
           </motion.div>
@@ -49,7 +48,7 @@ export default function HomeImage({}) {
           height: 100vh;
 
           /* Center and scale the image nicely */
-          background-position: center;
+          background-position: 5% 0%;
           background-repeat: no-repeat;
           background-size: cover;
         }

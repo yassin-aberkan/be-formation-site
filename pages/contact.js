@@ -15,11 +15,11 @@ export default function Contact() {
         page="Be Formation - Contacte"
       >
         <div className=" bg-Image">
-        <div className="pt-28 mb-10  text-4xl md:text-6xl tracking-wide font-bold ">
+        <div className="pt-28 mb-10  text-4xl md:text-6xl tracking-wide font-bold z-10">
           <span className="text-gray-50">Contactez</span><span className="text-gray-800">-nous !</span>
           </div>
           <motion.div initial={{opacity:0}} animate={{opacity:1}}
-            transition={{ delay: 0, duration: 1 }} className="max-w-6xl md:space-y-0 md:grid md:grid-cols-2 md:gap-y-10 mx-10 lg:mx-auto">
+            transition={{ delay: 0, duration: 1 }} className="max-w-6xl md:space-y-0 md:grid md:grid-cols-2 md:gap-y-10 mx-10 lg:mx-auto cart">
             <div className="bg-gray-800 md:py-12 py-8 md:rounded-l-md px-8 md:text-left h-full shadow-lg md:space-y-14 space-y-8">
               <div className="flex items-center text-gray-600 dark:text-gray-400">
                 <FaMapMarkerAlt className="md:text-4xl text-2xl text-gray-100"></FaMapMarkerAlt>
@@ -30,8 +30,16 @@ export default function Contact() {
 
               <div className="flex items-center text-gray-600 dark:text-gray-400">
               <FaPhone className="md:text-4xl text-2xl text-gray-100"></FaPhone>
-                <div className="ml-4 md:text-xl tracking-wide font-semibold w-40 text-gray-100">
-                  +32 1234567890
+                <div className="ml-4 md:text-xl tracking-wide font-semibold text-gray-100">
+                Coordinateur : Karim Akalay – +32 485189282
+                </div>
+                
+              </div>
+
+              <div className="flex items-center text-gray-600 dark:text-gray-400">
+              <FaPhone className="md:text-4xl text-2xl text-gray-100"></FaPhone>
+                <div className="ml-4 md:text-xl tracking-wide font-semibold  text-gray-100">
+                Président : Sohaïl Tadlaoui – +32 486222719
                 </div>
               </div>
 
@@ -57,13 +65,15 @@ export default function Contact() {
           url(/images/bg-contact.jpg);
         /* Full height */
         width: 100%;
-        height: 100vh;
         min-height: 600px;
-
+        padding-bottom: 30vh;
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+      }
+      .cart{
+        max-height: 200px;
       }
       @media (min-width: 640px) {
         .bg-Image {
@@ -74,14 +84,18 @@ export default function Contact() {
             url(/images/bg-contact.jpg);
           /* Full height */
           width: 100%;
-          height: 91.5vh;
+          height: 100vh;
 
           /* Center and scale the image nicely */
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
         }
+        .cart{
+        max-height: 60vh;
       }
+      }
+
       `}</style>
     </div>
   );

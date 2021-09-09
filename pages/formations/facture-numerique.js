@@ -30,7 +30,7 @@ export default function FactureNumerique() {
                   <span className="">Public cible</span>
                 </span>
                 <span className="flex text-sm sm:text-base ml-3 pl-3 py-2 border-l-2 border-gray-600 space-x-2">
-                  personnes inscrites comme demandeuses d’emploi ou bénéficiant
+                  Personnes inscrites comme demandeuses d’emploi ou bénéficiant
                   d’un RIS, primo-arrivants
                 </span>
               </div>
