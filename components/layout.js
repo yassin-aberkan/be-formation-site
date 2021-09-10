@@ -17,6 +17,7 @@ export default function Layout({ children, page }) {
 
       <main className="">
       <div >{children}</div>
+      
       </main>
 
       <footer className=""><MyFooter ></MyFooter></footer>

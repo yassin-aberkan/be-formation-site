@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
+  images: {
+    loader: "imgix",
+    path: "https://srv153.main-hosting.eu:7443/files/ressources/",
+},
 }

@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 function FormationCard({formation}) {
   return (
     <>
@@ -32,7 +32,7 @@ function FormationCard({formation}) {
               </div>
               <div className="flex">
                 <span className="title-font font-medium text-2xl text-gray-700">
-                  0€
+                  {formation.price}€ / heure
                 </span>
               </div>
             </div>

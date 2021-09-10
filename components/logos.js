@@ -1,4 +1,3 @@
-import Image from "next/image";
 const images = [
     {
         name: 'photoshop',
@@ -30,7 +29,7 @@ export default function Logos({ }) {
         <div className="mt-4 sm:mt-0 inline-flex space-x-5">
       {images.map((image) => (
             <div key={image.name} className=" min-w-64">
-                <Image src={image.path} width={50} height={50} quality={100}></Image>
+                <img src={image.path} width={50} height={50} quality={100} alt={image.name + "name"}></img>
             </div>
       ))}
       </div>

@@ -14,7 +14,6 @@ import {
   FaInstagram,
   FaEnvelope,
 } from "react-icons/fa";
-import Image from "next/image";
 
 const formations = [
   {
@@ -59,7 +58,7 @@ export default function Navigation() {
           <div className="flex justify-start lg:w-0 lg:flex-1 items-center space-x-5">
             <a href="#">
               <span className="sr-only">Workflow</span>
-              <Image
+              <img
                 className="h-8 w-auto sm:h-10"
                 src="/icon-be-formation.svg"
                 alt=""
@@ -202,7 +201,7 @@ export default function Navigation() {
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <Image
+                  <img
                     className="h-8 w-auto sm:h-10"
                     src="/icon-be-formation.svg"
                     alt=""

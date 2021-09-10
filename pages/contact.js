@@ -19,7 +19,7 @@ export default function Contact() {
           <span className="text-gray-50">Contactez</span><span className="text-gray-800">-nous !</span>
           </div>
           <motion.div initial={{opacity:0}} animate={{opacity:1}}
-            transition={{ delay: 0, duration: 1 }} className="max-w-6xl md:space-y-0 md:grid md:grid-cols-2 md:gap-y-10 mx-10 lg:mx-auto cart">
+            transition={{ delay: 0, duration: 1 }} className="max-w-6xl md:space-y-0 md:grid md:grid-cols-2 md:gap-y-10 sm:mx-10 lg:mx-auto cart">
             <div className="bg-gray-800 md:py-12 py-8 md:rounded-l-md px-8 md:text-left h-full shadow-lg md:space-y-14 space-y-8">
               <div className="flex items-center text-gray-600 dark:text-gray-400">
                 <FaMapMarkerAlt className="md:text-4xl text-2xl text-gray-100"></FaMapMarkerAlt>

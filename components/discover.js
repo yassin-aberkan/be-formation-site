@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/link";
 /* This example requires Tailwind CSS v2.0+ */
 const formations = [
   {

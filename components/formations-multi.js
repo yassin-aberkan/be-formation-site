@@ -14,18 +14,18 @@ const formations = [
     required: "Aucun",
     description:
       "Cette formation s’adresse à toute personne voulant réaliser un contenu vidéo, que ce soit une capsule, un court métrage ou reportage. Vous pourrez comprendre la méthodologie d’une bonne réalisation pour pouvoir filmer un évènement, vidéo podcast, un voyage. Une partie théorique et ensuite pratique sera donné.",
-    price: 0,
+    price: 25,
     image: "/images/formations/film-cover.jpeg",
     type: 1,
   },
   {
     name: "Be drone",
     longName: "Savoir piloter un drone avec caméra",
-    hours: 3,
+    hours: 6,
     required: "Aucun",
     description:
       "Formation de base pour apprendre à piloter un drone de moins d’un kilo.",
-    price: 0,
+    price: 25,
     image: "/images/formations/drone-cover.jpg",
     type: 1,
   },
@@ -36,7 +36,7 @@ const formations = [
     required: "Savoir utiliser le système d’exploitation Windows 7",
     description:
       "La formation Adobe Premiere Pro CC permettra d’apprendre l’essentiel des fonctionnalités et savoir faire un montage vidéo A à Z.",
-    price: 0,
+    price: 25,
     image: "/images/formations/premiere-cover.jpg",
     type: 2,
   },
@@ -47,7 +47,7 @@ const formations = [
     required: "Savoir utiliser le système d’exploitation Windows 7",
     description:
       " Apprentissage de l’essentiel des fonctionnalités de Adobe After Effect, savoir filmer sur fond vert et l’utiliser sur After Effect.",
-    price: 0,
+    price: 25,
     image: "/images/formations/after-cover.jpg",
     type: 2,
   },
@@ -58,7 +58,7 @@ const formations = [
     required: "Savoir utiliser le système d’exploitation Windows 7",
     description:
       "La formation Illustrator CC permettra d’apprendre l’essentiel des fonctionnalités et savoir créer un Logo et faire de l’illustration en vectoriel pour le web et le print.",
-    price: 0,
+    price: 25,
     image: "/images/formations/illustrator-cover.jpg",
     type: 2,
   },
@@ -69,7 +69,7 @@ const formations = [
     required: "Savoir utiliser le système d’exploitation Windows 7",
     description:
       "La formation Photoshop CC permettra d’apprendre l’essentiel des fonctionnalités et savoir réalisé des photomontage, des retouches photo, création de flyers pour le web et le print.",
-    price: 0,
+    price: 25,
     image: "/images/formations/photoshop-cover.jpg",
     type: 2,
   },
@@ -80,7 +80,7 @@ const formations = [
     required: "Savoir utiliser le système d’exploitation Windows 7",
     description:
       "La formation permet au futur webdesigner de savoir utiliser le language HTML 5 afin de pouvoir créer des sites internet, savoir référencer, comprendre le webmarketing.",
-    price: 0,
+    price: 25,
     image: "/images/formations/html-cover.jpg",
     type: 3,
   },
@@ -91,7 +91,7 @@ const formations = [
     required: "Savoir utiliser le système d’exploitation Windows 7",
     description:
       "La formation permet au futur webdesigner de savoir utiliser le language CSS 3 afin de pouvoir créer la partie graphique d’un site internet avec son design et ses animations.",
-    price: 0,
+    price: 25,
     image: "/images/formations/css-cover.jpg",
     type: 3,
   },
@@ -102,7 +102,7 @@ const formations = [
     required: "Aucun",
     description:
       "Aujourd’hui, les entreprises, hôpitaux, banques devienne accessible notamment via l’informatique, que ce soit par les applications homebanking, la prise de rendez-vous via leur site internet, la consultation de leur dossier médical en ligne. Malheureusement cela peut handicaper fortement un public n’ayant jamais connu le monde de l’informatique notamment les séniors.",
-    price: 0,
+    price: 25,
     image: "/images/formations/computer-cover.jpg",
     type: 4,
   },
@@ -113,7 +113,7 @@ const formations = [
     required: "Aucun",
     description:
       "Réalisé des montages vidéo numérique avec Final Cut pro x",
-    price: 0,
+    price: 25,
     image: "/images/formations/cut-cover.jpg",
     type: 2,
   },
@@ -124,7 +124,7 @@ const formations = [
     required: "Connaître les fondamentaux des langages HTML 5 et CSS 3",
     description:
       "La formation permet au futur webdesigner de savoir utiliser le langage Javascript afin de pouvoir créer des sites internet dynamiques, personnaliser et perfectionner un site web.",
-    price: 0,
+    price: 25,
     image: "/images/formations/javascript-cover.jpg",
     type: 5,
   },
@@ -135,7 +135,7 @@ const formations = [
     required: "Aucun",
     description:
       "La formation permet au futur programmeur d'application de savoir utiliser le langage python afin de pouvoir créer des logiciels et comprendre les bases de la programmation",
-    price: 0,
+    price: 25,
     image: "/images/formations/python-cover.jpg",
     type: 5,
   },
